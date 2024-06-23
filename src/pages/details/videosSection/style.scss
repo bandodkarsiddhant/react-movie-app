@@ -6,6 +6,7 @@
         font-size: 24px;
         color: white;
         margin-bottom: 25px;
+        font-family: var(--title-font-family);
     }
     .videos {
         display: flex;
@@ -63,12 +64,12 @@
                     .triangle {
                         stroke-dashoffset: 0;
                         opacity: 1;
-                        stroke: var(--pink);
+                        stroke: #FAED26;
                         animation: trailorPlay 0.7s ease-in-out;
                     }
                     .circle {
                         stroke-dashoffset: 0;
-                        stroke: var(--pink);
+                        stroke: #FAED26;
                     }
                 }
             }
@@ -76,6 +77,8 @@
                 color: white;
                 font-size: 14px;
                 line-height: 20px;
+        font-family: var(--subtitle-font-family);
+
                 @include md {
                     font-size: 16px;
                     line-height: 24px;

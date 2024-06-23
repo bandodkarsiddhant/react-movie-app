@@ -60,7 +60,7 @@ const SearchResult = () => {
                                     data?.total_results > 1
                                         ? "results"
                                         : "result"
-                                } of '${query}'`}
+                                } for '${query}'`}
                             </div>
                             <InfiniteScroll
                                 className="content"

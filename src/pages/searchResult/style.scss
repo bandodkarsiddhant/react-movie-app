@@ -11,18 +11,23 @@
         line-height: 34px;
         color: white;
         margin-bottom: 25px;
+        font-family: var(--title-font-family);
+
     }
     .content {
         display: flex;
         flex-flow: row wrap;
         gap: 10px;
         margin-bottom: 50px;
+        font-family: var(--title-font-family);
+
         @include md {
             gap: 20px;
         }
         .movieCard {
             .posterBlock {
                 margin-bottom: 20px;
+                
             }
         }
     }

@@ -2,6 +2,7 @@
 .explorePage {
     min-height: 700px;
     padding-top: 100px;
+    
     .resultNotFound {
         font-size: 24px;
         color: var(--black-light);
@@ -20,6 +21,7 @@
         line-height: 34px;
         color: white;
         margin-bottom: 20px;
+        font-family: var( --title-font-family);
         @include md {
             margin-bottom: 0;
         }
@@ -28,6 +30,7 @@
         display: flex;
         gap: 10px;
         flex-direction: column;
+        font-family: var( --subtitle-font-family);
         @include md {
             flex-direction: row;
         }
@@ -90,6 +93,7 @@
         flex-flow: row wrap;
         gap: 10px;
         margin-bottom: 50px;
+        font-family: var( --subtitle-font-family);
         @include md {
             gap: 20px;
         }

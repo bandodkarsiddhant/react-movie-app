@@ -2,11 +2,12 @@
     display: flex;
     gap: 5px;
     .genre {
-        background-color: var(--pink);
-        padding: 3px 5px;
+        background-color: #FAED26;
+        padding: 4px 5px;
         font-size: 12px;
+        font-family: var(--title-font-family);
         border-radius: 4px;
-        color: white;
+        color: black;
         white-space: nowrap;
     }
 }

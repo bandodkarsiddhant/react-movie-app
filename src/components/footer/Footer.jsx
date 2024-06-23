@@ -30,16 +30,16 @@ const Footer = () => {
                     esse cillum dolore eu fugiat nulla pariatur.
                 </div>
                 <div className="socialIcons">
-                    <span className="icon">
+                    <span className="icon" title="Facebook">
                         <FaFacebookF />
                     </span>
-                    <span className="icon">
+                    <span className="icon" title="Instagram">
                         <FaInstagram />
                     </span>
-                    <span className="icon">
+                    <span className="icon" title="Twitter">
                         <FaTwitter />
                     </span>
-                    <span className="icon">
+                    <span className="icon" title="LinkedIn">
                         <FaLinkedin />
                     </span>
                 </div>

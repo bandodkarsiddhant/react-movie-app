@@ -9,10 +9,12 @@
         color: white;
         margin-bottom: 20px;
         font-weight: normal;
+        font-family: var(--title-font-family);
+        
     }
     .arrow {
         font-size: 30px;
-        color: black;
+        color: white;
         position: absolute;
         top: 44%;
         transform: translateY(-50%);
@@ -64,10 +66,12 @@
             .textBlock {
                 display: flex;
                 flex-direction: column;
+                
                 .title {
                     width: 100%;
                     height: 20px;
                     margin-bottom: 10px;
+                   
                 }
                 .date {
                     width: 75%;
@@ -132,6 +136,7 @@
                     top: 30px;
                     background-color: white;
                     flex-shrink: 0;
+                    font-family: var(--title-font-family);
                     @include md {
                         width: 50px;
                         height: 50px;
@@ -140,6 +145,7 @@
                 .genres {
                     display: none;
                     position: relative;
+                    font-family: var(--title-font-family);
                     @include md {
                         display: flex;
                         flex-flow: wrap;
@@ -155,6 +161,7 @@
                     font-size: 16px;
                     margin-bottom: 10px;
                     line-height: 24px;
+                    font-family: var(--subtitle-font-family);
                     @include ellipsis(1);
                     @include md {
                         font-size: 20px;
@@ -163,6 +170,7 @@
                 .date {
                     font-size: 14px;
                     opacity: 0.5;
+                    font-family: var(--title-font-family);
                 }
             }
         }
